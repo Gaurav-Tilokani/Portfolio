@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing:border-box; 
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 1;
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    line-height: 30px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.navbar div img:hover {
+    cursor: pointer;
+}
+
+.navbar .sections {
+    flex-basis: 50%;
+    justify-content: center;
+}
+
+.navbar .sections li a{
+    margin: 0px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .sections li a:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+
+.navbar .socialMedia {
+    justify-content: start;
+    flex-basis: 25%;
+}
+
+.navbar .socialMedia li {
+    margin: 0px 10px;
+    width: 18px;
+}
+
+.navbar .socialMedia li:hover {
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.menu {
+    position: absolute;
+    font-size: 20px;
+    display: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    right: 15%;
+}
+
+.menu:hover {
+    cursor: pointer;
+    color: aqua;
+}
+
+@media screen and (max-width: 1050px) {
+
+    .sections a {
+        display: none;
+    }
+
+    .socialMedia a {
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    .navbar ul li {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .mainImg {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1050px) {
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .active .sections a {
+        display: block;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .active .socialMedia a {
+        display: block;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .active .sections {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .active .socialMedia {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+#home {
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+.mainText {
+    margin-top: 17%;
+    margin-left: 8%;
+}
+
+.name {
+    font-size: 80px;
+    color: aqua;
+}
+
+.main1 {
+    display: flex;
+}
+
+.mainImg {
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 233px;
+    border-radius: 50px;
+}
+
+.text {
+    font-size: 35px;
+}
+
+.main1 span {
+    color:  aqua;
+}
+
+.hire {
+    font-size: 25px;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    font-family: Roboto;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-left: 20%;
+    background-color: mediumblue;
+    letter-spacing: 2px;
+    border: 1.5px solid white;
+}
+
+.hire:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+}
+
+#about{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about{
+    color: blue;
+    font-size: 90px;
+    font-family: Roboto;
+    font-weight: bolder;
+    letter-spacing: -4.0px;
+}
+
+.about span {
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 5px;
+}
+
+.abt{
+    display: flex;
+}
+
+.abtText{
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 35px;
+    padding-right: 4%;
+    padding-top: 2%;
+    font-weight: bold;
+}
+
+.abtText span{
+    font-family: Roboto;
+    color: red;
+    font-size: 30px;
+    letter-spacing: 0.7px;
+    line-height: 40px;
+}
+
+#skills {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    width: 147px;
+}
+
+.skill p{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.skill i{
+    margin: 40px auto 5px auto;
+    font-size: 100px;
+    color: red;
+}
+
+#contact {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.wholeForm{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.formCard {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 60%;
+    border-radius: 20px;
+
+}
+
+#name {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+    height: 30px;
+    color: white;
+}
+
+#mail {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+    height: 30px;
+    color: white;
+}
+
+#phone {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+    height: 30px;
+    color: white;
+}
+
+#msg {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: white;
+    height: 60px;
+    width: 100%;
+}
+
+#submit{
+    display: block;
+    font-size: 25px;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    font-family: Roboto;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: mediumblue;
+    letter-spacing: 2px;
+    border: 1.5px solid white;
+    margin: 0 auto;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: blueviolet;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: Roboto;
+    letter-spacing: 1px;
+    height: 80px;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 10px;
+}
+
