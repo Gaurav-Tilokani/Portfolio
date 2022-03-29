@@ -50,7 +50,7 @@
 }
 
 .navbar .sections li a:hover {
-    color: aqua;
+    color: #78C0E0;
     cursor: pointer;
 }
 
@@ -81,7 +81,7 @@
 
 .menu:hover {
     cursor: pointer;
-    color: aqua;
+    color: #78C0E0;
 }
 
 @media screen and (max-width: 1050px) {
@@ -154,7 +154,7 @@
 
 .name {
     font-size: 80px;
-    color: aqua;
+    color: #78C0E0;
 }
 
 .main1 {
@@ -174,7 +174,7 @@
 }
 
 .main1 span {
-    color:  aqua;
+    color:  #78C0E0;
 }
 
 .hire {
@@ -187,25 +187,26 @@
     border-radius: 10px;
     margin-top: 10%;
     margin-left: 20%;
-    background-color: mediumblue;
+    background-color: #3943B7;
     letter-spacing: 2px;
     border: 1.5px solid white;
 }
 
 .hire:hover{
     cursor: pointer;
-    background-color: blueviolet;
+    background-color: #449DD1;
 }
 
 #about{
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 50px;
     padding-bottom: 50px;
+    background-color: #F6F7EB;
 }
 
 .about{
-    color: blue;
+    color: #3943B7;
     font-size: 90px;
     font-family: Roboto;
     font-weight: bolder;
@@ -234,17 +235,18 @@
 
 .abtText span{
     font-family: Roboto;
-    color: red;
+    color: #DA7635;
     font-size: 30px;
     letter-spacing: 0.7px;
     line-height: 40px;
 }
 
 #skills {
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 50px;
     padding-bottom: 50px;
+    background-color: #F6F7EB;
 }
 
 .skills{
@@ -273,14 +275,17 @@
 .skill i{
     margin: 40px auto 5px auto;
     font-size: 100px;
-    color: red;
+    /* color: #F4A261; */
+    color: #DA7635;
+
 }
 
 #contact {
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 50px;
     padding-bottom: 50px;
+    background-color: #F6F7EB;
 }
 
 .wholeForm{
@@ -348,7 +353,7 @@
     font-family: Roboto;
     font-weight: bold;
     border-radius: 10px;
-    background-color: mediumblue;
+    background-color: #3943B7;
     letter-spacing: 2px;
     border: 1.5px solid white;
     margin: 0 auto;
@@ -356,7 +361,7 @@
 
 #submit:hover {
     cursor: pointer;
-    background-color: blueviolet;
+    background-color: #449DD1;
 }
 
 footer {
