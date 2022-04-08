@@ -202,7 +202,9 @@
     padding-right: 10%;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #F6F7EB;
+    /* background-color: #F6F7EB; */
+    /* background-color: #CEEC97; */
+    background-color: #F1E9DB;
 }
 
 .about{
@@ -215,7 +217,8 @@
 
 .about span {
     text-decoration: underline;
-    text-decoration-color: aqua;
+    /* text-decoration-color: aqua; */
+    text-decoration-color: #832161;
     text-decoration-thickness: 5px;
     text-underline-offset: 5px;
 }
@@ -235,7 +238,9 @@
 
 .abtText span{
     font-family: Roboto;
-    color: #DA7635;
+    /* color: #DA7635; */
+    /* color: #CC3F0C; */
+    color: #FC60A8;
     font-size: 30px;
     letter-spacing: 0.7px;
     line-height: 40px;
@@ -246,7 +251,9 @@
     padding-right: 10%;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #F6F7EB;
+    /* background-color: #F6F7EB; */
+    /* background-color: #CEEC97; */
+    background-color: #F1E9DB;
 }
 
 .skills{
@@ -276,7 +283,10 @@
     margin: 40px auto 5px auto;
     font-size: 100px;
     /* color: #F4A261; */
-    color: #DA7635;
+    /* color: #DA7635; */
+    /* color: #CC3F0C; */
+    color: #FC60A8;
+
 
 }
 
@@ -285,7 +295,9 @@
     padding-right: 10%;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #F6F7EB;
+    /* background-color: #F6F7EB; */
+    /* background-color: #CEEC97; */
+    background-color: #F1E9DB;
 }
 
 .wholeForm{
