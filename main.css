@@ -238,9 +238,9 @@
 
 .abtText span{
     font-family: Roboto;
-    /* color: #DA7635; */
+    color: #DA7635;
     /* color: #CC3F0C; */
-    color: #FC60A8;
+    /* color: #FC60A8; */
     font-size: 30px;
     letter-spacing: 0.7px;
     line-height: 40px;
@@ -283,9 +283,9 @@
     margin: 40px auto 5px auto;
     font-size: 100px;
     /* color: #F4A261; */
-    /* color: #DA7635; */
+    color: #DA7635;
     /* color: #CC3F0C; */
-    color: #FC60A8;
+    /* color: #FC60A8; */
 
 
 }
