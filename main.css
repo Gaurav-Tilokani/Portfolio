@@ -217,8 +217,8 @@
 
 .about span {
     text-decoration: underline;
-    /* text-decoration-color: aqua; */
-    text-decoration-color: #832161;
+    text-decoration-color: aqua;
+    /* text-decoration-color: #832161; */
     text-decoration-thickness: 5px;
     text-underline-offset: 5px;
 }
