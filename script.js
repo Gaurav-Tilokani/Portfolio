@@ -13,7 +13,7 @@ firebase.initializeApp(firebaseConfig);
 
 $("document").ready(function () {
   var typed = new Typed("#typing", {
-    strings: ["WEB DEVELOPER.", "UI/UX DESIGNER.", "INVESTOR."],
+    strings: ["Web Developer.", "UI/UX Designer.", "ML Enthusiast."],
     typeSpeed: 100,
     backSpeed: 70,
     loop: true,
